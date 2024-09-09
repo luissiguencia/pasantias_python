@@ -1,0 +1,7 @@
+lista = [1,2,3,4,5]
+
+try:
+    lista[10]
+except IndexError:
+    print("Error: El índice al que intentas acceder está fuera del rango. Debes introducir un número\n"
+          "dentro de la longitud de la cadena", len(lista))
